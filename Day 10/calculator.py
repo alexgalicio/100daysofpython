@@ -44,6 +44,7 @@ def calculator():
 
         if input(f"Type 'y' to continue calculating with {answer}, or type 'n' to exit:  ") == 'y':
             num1 = answer
+            print(num1)
         else:
             again = False
             calculator()
